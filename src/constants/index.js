@@ -1,76 +1,85 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import crypto2 from "../assets/projects/crypto2.jpg";
+import quiz from "../assets/projects/quiz.jpg";
+import gym from "../assets/projects/gym.jpg";
+import edusity from "../assets/projects/edusity.jpg";
+import jose from "../assets/projects/jose.jpg";
+import portfolio from "../assets/projects/portfolio.jpg";
 
-export const HERO_CONTENT = `I am a detail-oriented Frontend Developer with a full-stack development background. Proficient in React and skilled in creating seamless user interfaces and solving complex technical challenges. Known for a proactive approach and a strong “get things done” attitude and a strong commitment to continuous learning and development.  I have honed my skills in front-end technologies like React.`;
+export const HERO_CONTENT = `I’m a Frontend Developer with a full-stack background. I’m skilled in React and focused on building great user interfaces and solving technical challenges. I’m known for my “get things done” attitude and commitment to continuous learning.`;
 
-export const ABOUT_TEXT = ` With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `My journey in web development started with a natural curiosity about how things work and a desire to be part of the future. Over time, this curiosity has transformed into a full-fledged career. I’m driven by a passion for learning and I thrive in collaborative environments. Outside of coding, I enjoy communicating and brainstorming ideas. Just as muscles take time to build, so does the brain, and that’s why I’m always researching, exploring new technologies, and pushing myself to grow. I know how to make things work, and I believe that continuous research is key to growth.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
+    year: "June 2024 - August 2024 ",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    company: "HNG TECH",
+    description: `Successfully completed a series of tasks across multiple stages, reaching level 5 and earning a certificate, while collaborating with a product designer and a remote team to develop and optimize frontend features for various projects using React, HTML, CSS, and JavaScript. `,
+    technologies: ["HTML", "CSS", "Javascript", "React.Js", "API"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "January 2024 - July 2024 ",
+    role: "FullStack Developer",
+    company: "GOMYCODE",
+    description: `Completed an intensive full-stack web development bootcamp with a strong focus on front-end technologies. Gained hands-on experience by building and deploying full-stack applications using JavaScript and React. Collaborated in teams on real-world projects, leveraging agile development practices and pair programming to deliver high-quality results. Enhanced problem-solving skills`,
+    technologies: ["HTML", "CSS", "Javascript", "React", "Express.js", "MongoDB", "API"],
   },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Crypto-Tracker",
+    image: crypto2,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A real-time cryptocurrency dashboard that allows users to sign up, log in, and track live cryptocurrency prices. Built with React and Tailwind CSS, the platform integrates real-time data using a cryptocurrency API to provide users with up-to-date market trends. The app features a responsive design for seamless use across devices and offers a clean, intuitive interface for tracking crypto assets effortlessly.",
+    technologies: ["HTML", "CSS", "Tailwind", "Javascript",  "React"],
+    url: "https://crypto-tracker-app-six-navy.vercel.app/"
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Quiz-App",
+    image: quiz,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "the Quiz App is an interactive web application designed to engage users with a series of questions across various topics. Built using React, this app allows users to take quizzes, track their progress, and view their scores upon completion. Featuring a clean and user-friendly interface, the app ensures a smooth experience while offering an engaging way to test knowledge.",
+    technologies: ["HTML", "CSS", "Javascript", "React"],
+    url: "https://quiz-app-ten-lovat.vercel.app/"
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Evo-gym",
+    image: gym,
+    description:
+      "Evo Gym is a straightforward gym website where users can easily sign up through a form. The app features a clean, responsive design, making it accessible on any device. It provides a simple yet effective way for users to register and start their fitness journey.",
+    technologies: ["HTML", "Tailwind", "Typescript", "React"],
+    url: "https://gym-app-indol-phi.vercel.app/"
+  },
+  {
+    title: "Edusity",
+    image: edusity,
+    description:
+      "Edusity is a web platform built to represent a university, providing an online space for students and prospective learners to explore academic programs, campus information, and resources. With a user-friendly design, the website allows visitors to easily navigate through various departments, courses, and university services.",
+    technologies: ["HTML", "Tailwind", "React",],
+    url: "https://edusity-project-eight.vercel.app/"
+  },
+  {
+    title: "Jose-Buddy",
+    image: jose,
+    description:
+      "Jose Buddy is a personal AI assistant built using the OpenAI API. Inspired by models like GPT, this AI assistant is designed to help with various tasks, answer questions, and provide insights in a conversational manner.",
+    technologies: ["HTML", "CSS", "React"],
+    url: "https://jose-buddy-gpt.vercel.app/"
+  },
+  {
+    title: "porfolio website",
+    image: portfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "Tailwind", "React", ],
+    url: "https://portfolio-website-react-hazel.vercel.app/"
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
+  address: "Lagos, Nigeria",
+  phoneNo: "+234 704 992 4540",
   email: "josemaria14.work@gmail.com",
 };

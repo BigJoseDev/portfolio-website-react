@@ -32,7 +32,7 @@ export const PROJECTS = [
     title: "Crypto-Tracker",
     image: crypto2,
     description:
-      "A real-time cryptocurrency dashboard that allows users to sign up, log in, and track live cryptocurrency prices. Built with React and Tailwind CSS, the platform integrates real-time data using a cryptocurrency API to provide users with up-to-date market trends. The app features a responsive design for seamless use across devices and offers a clean, intuitive interface for tracking crypto assets effortlessly.",
+      "A real-time cryptocurrency dashboard that allows users to track live cryptocurrency prices.the platform integrates real-time data using a cryptocurrency API to provide users with up-to-date market trends. The app features a responsive design for seamless use across devices and offers a clean, intuitive interface for tracking crypto assets effortlessly.",
     technologies: ["HTML", "CSS", "Tailwind", "Javascript",  "React"],
     url: "https://crypto-tracker-app-six-navy.vercel.app/"
   },

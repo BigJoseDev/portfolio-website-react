@@ -5,7 +5,7 @@ import edusity from "../assets/projects/edusity.jpg";
 import jose from "../assets/projects/jose.jpg";
 import portfolio from "../assets/projects/portfolio.jpg";
 
-export const HERO_CONTENT = `I’m a Frontend Developer with a full-stack background. I’m skilled in React and focused on building great user interfaces and solving technical challenges. I’m known for my “get things done” attitude and commitment to continuous learning.`;
+export const HERO_CONTENT = `I’m a Frontend Developer with a full-stack background. I’m skilled in React and enjoy creating smooth user experiences while solving technical problems. known for getting things done and constantly finding ways to improve..`;
 
 export const ABOUT_TEXT = `My journey in web development started with a natural curiosity about how things work and a desire to be part of the future. Over time, this curiosity has transformed into a full-fledged career. I’m driven by a passion for learning and I thrive in collaborative environments. Outside of coding, I enjoy communicating and brainstorming ideas. Just as muscles take time to build, so does the brain, and that’s why I’m always researching, exploring new technologies, and pushing myself to grow. I know how to make things work, and I believe that continuous research is key to growth.`;
 

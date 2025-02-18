@@ -3,7 +3,7 @@ import quiz from "../assets/projects/quiz.jpg";
 import gym from "../assets/projects/gym.jpg";
 import edusity from "../assets/projects/edusity.jpg";
 import jose from "../assets/projects/jose.jpg";
-import portfolio from "../assets/projects/portfolio.jpg";
+import portfolio from "../assets/projects/portfolio1.jpg";
 
 export const HERO_CONTENT = `I’m a Frontend Developer with a full-stack background. I’m skilled in React and enjoy creating smooth user experiences while solving technical problems. known for getting things done and constantly finding ways to improve..`;
 

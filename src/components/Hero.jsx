@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profile3 from "../assets/profile3.jpg"
+import profileimg from "../assets/profileimg.jpg"
 import { motion } from "framer-motion";
 
 const container = (delay)=>({
@@ -47,7 +47,7 @@ const Hero = () => {
       initial={{ x: 100, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 1, delay: 1.2 }}
-      src={profile3}
+      src={profileimg}
       alt="Profile Image"
       className="w-96 h-auto rounded-lg shadow-lg " // Enhanced styling
     />

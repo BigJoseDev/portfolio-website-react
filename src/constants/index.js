@@ -1,15 +1,25 @@
+import t4t from "../assets/projects/t4t.jpg";
+import crypto1 from "../assets/projects/3292.jpg";
 import crypto2 from "../assets/projects/crypto2.jpg";
 import quiz from "../assets/projects/quiz.jpg";
 import gym from "../assets/projects/gym.jpg";
 import edusity from "../assets/projects/edusity.jpg";
 import jose from "../assets/projects/jose.jpg";
-import portfolio from "../assets/projects/portfolio1.jpg";
+import portfolio from "../assets/projects/portfolio2.jpg";
 
 export const HERO_CONTENT = `I’m a Frontend Developer with a full-stack background. I’m skilled in React and enjoy creating smooth user experiences while solving technical problems. known for getting things done and constantly finding ways to improve..`;
 
 export const ABOUT_TEXT = `My journey in web development started with a natural curiosity about how things work and a desire to be part of the future. Over time, this curiosity has transformed into a full-fledged career. I’m driven by a passion for learning and I thrive in collaborative environments. Outside of coding, I enjoy communicating and brainstorming ideas. Just as muscles take time to build, so does the brain, and that’s why I’m always researching, exploring new technologies, and pushing myself to grow. I know how to make things work, and I believe that continuous research is key to growth.`;
 
 export const EXPERIENCES = [
+  {
+    year: "August 2024 - Present",
+    role: "Freelance Frontend Developer",
+    company: "Self-Employed",
+    description: `As a freelance frontend developer, I have focused on building various personal projects to enhance my skills in frontend technologies. This experience has allowed me to strengthen my expertise in React, JavaScript, HTML, and CSS while working on different types of applications and websites. Through continuous learning and project development, I have refined my problem-solving abilities and kept up with the latest trends and best practices in frontend development.`,
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "API"],
+  },
+  
   {
     year: "June 2024 - August 2024 ",
     role: "Frontend Developer",
@@ -28,6 +38,22 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "T4T",
+    image: t4t,
+    description:
+      "A website for a free AI and Web3 school that fosters peer-to-peer learning, similar to the 42 network. The platform is designed to provide a decentralized and collaborative learning environment for students, focusing on AI and Web3 technologies.",
+    technologies: ["HTML", "CSS", "Tailwind", "Javascript",  "React"],
+    url: "https://t4t.pages.dev/"
+  },
+  {
+    title: "329 Capital",
+    image: crypto1,
+    description:
+      "A landing page for a crypto advisory firm, designed to provide an overview of the company's services, mission, and team. Built with React, JavaScript, and Tailwind CSS, this website offers a clean, modern design and smooth user experience.",
+    technologies: ["HTML", "CSS", "Tailwind", "Javascript",  "React"],
+    url: "https://329capital.vercel.app"
+  },
   {
     title: "Crypto-Tracker",
     image: crypto2,
@@ -69,7 +95,7 @@ export const PROJECTS = [
     url: "https://jose-buddy-gpt.vercel.app/"
   },
   {
-    title: "porfolio website",
+    title: "Portfolio website",
     image: portfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
